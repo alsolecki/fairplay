@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <h1>Fairplay</h1>
-      <div>
+      <div className="home">
         <h2>Home</h2>
         <div className="group">
-          <div class="player">
+          <div className="player">
             <h3>Lisa</h3>
             <div class="tasks">
               <p>Laundry</p>
@@ -48,7 +48,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="care">
         <h2>Caregiving</h2>
         <div className="group">
           <div class="player">
@@ -90,7 +90,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="out">
         <h2>Out</h2>
         <div className="group">
           <div class="player">
@@ -135,7 +135,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="magic">
         <h2>Magic</h2>
         <div className="group">
           <div class="player">
@@ -163,6 +163,8 @@ function App() {
               <p>Showing Up and Participating, kids</p>
               <p>Watching, kids</p>
               <p>Dicipline & Screentime, kids</p>
+              <p>Hard Questions, kids</p>
+              <p>Spirituality</p>
             </div>
           </div>
           <div class="player">
@@ -170,13 +172,11 @@ function App() {
             <div class="tasks">
               <p>Adult Friendships, player 2</p>
               <p>Thank You Notes</p>
-              <p>Hard Questions, kids</p>
-              <p>Spirituality</p>
             </div>
           </div>
         </div>
       </div>
-      <div>
+      <div className="wild">
         <h2>Wild</h2>
         <div className="group">
           <div class="player">
@@ -198,13 +198,13 @@ function App() {
               <p>Home Renovation</p>
               <p>Serious Illness</p>
               <p>Job Loss / Money problems</p>
+              <p>New Job</p>
             </div>
           </div>
           <div class="player">
             <h3>Alex</h3>
             <div class="tasks">
               <p>Unicorn Space</p>
-              <p>new job?</p>
             </div>
           </div>
         </div>

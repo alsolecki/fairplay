@@ -10,12 +10,40 @@
 }
 
 .group {
-  border: red 2px solid;
+  /* border: red 2px solid; */
   display: flex;
   justify-content: space-evenly;
 }
 
 .player {
-  border: plum 1px solid;
+  /* border: plum 1px solid; */
   border-radius: 6px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.home {
+  background-color: rgb(135, 159, 141);
+}
+
+.care {
+  background-color: rgb(169, 78, 53);
+}
+
+.out {
+  background-color: rgb(45, 62, 93);
+}
+
+.magic {
+  background-color: rgb(99, 68, 112);
+}
+
+.wild {
+  background-color: rgb(129, 177, 18);
 }
