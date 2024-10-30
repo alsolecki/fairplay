@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.group {
+  border: red 2px solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.player {
+  border: plum 1px solid;
+  border-radius: 6px;
+}
